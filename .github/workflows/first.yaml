@@ -3,7 +3,7 @@ on:
     branches:
       - master
 jobs:
-  first:
+  first-job:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello"
