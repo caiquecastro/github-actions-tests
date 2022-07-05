@@ -4,6 +4,7 @@ on:
       - master
 jobs:
   first:
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hello"
       
