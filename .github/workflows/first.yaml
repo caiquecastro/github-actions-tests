@@ -4,3 +4,6 @@ on:
       - master
 jobs:
   first:
+    steps:
+      - run: echo "Hello"
+      
